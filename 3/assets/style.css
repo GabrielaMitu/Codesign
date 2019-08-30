@@ -1,0 +1,363 @@
+.tudo{
+	background-color: 	#F5F5F5;
+}
+.header1 {
+	border-style: solid;
+	border-width: 0.1rem;
+	margin: 0 auto;
+	height: 4rem;
+	max-width: 80rem;
+	min-width: 79rem;
+	color: #191970;
+	background-color: #D8BFD8;
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: 10rem auto 20rem 4rem;
+	grid-template-rows: 4rem;
+}
+
+.h1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	font-size: 2rem;
+	align-self: center;
+	margin:1rem;
+	font-family: Limelight, Roboto Slab;
+	color: #191970;
+
+	
+}
+
+.perfil {
+	display: flex;
+	justify-content: center;
+	grid-column-start: 4;
+	align-self: center;
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.buscar {
+	grid-column-start: 3;
+	align-self: center;
+	width: 17rem;
+	height: 3rem;
+
+}
+
+.img10 {
+	display: flex;
+	margin: 0 auto;
+	height: 25rem;
+	width: 40rem;
+}
+
+.cabeca {
+	margin: 0 auto;
+	max-width: 80rem;
+	min-width: 79rem;
+	padding: 5rem;
+}
+
+.um {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	display:inline-flex;
+	align-items: center;
+	margin: 2rem;
+
+}
+
+.um-dois {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	display: inline-flex;
+	align-items: center;
+	height: 5rem;
+	width: 15rem;
+	margin: 2rem;
+}
+
+.logos {
+	height: 3rem;
+	width: 3rem;
+	margin: 1rem;
+}
+
+.section-menu-text {
+	font-size: 2rem; 
+	font-family: Limelight, Roboto Slab;
+	color: #191970;
+
+}
+
+
+.section-menu {
+	display: grid;
+	margin: 0 auto;
+	grid-template-rows: 10rem 10rem;
+	grid-template-columns: 17rem 25rem 5rem 20rem auto;
+	max-width: 80rem;
+	min-width: 79rem;
+}
+
+
+.header{
+	border-style: solid;
+	border-width: 0rem 0rem 1.5rem 0rem;
+	margin: 2rem;
+	padding: 2rem;
+}
+
+
+.container1{
+	display: grid;
+	grid-template-columns: 30% auto auto 25%;
+    grid-template-rows: 20% 30% 30% 20%;
+}
+
+
+.container2{
+	display: grid;
+	grid-template-columns: 1;
+    grid-template-rows: 15% auto 15% 30% auto;
+}
+
+
+
+.ptitle{
+    font-size: 3rem;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    font-family: Limelight, Roboto Slab;
+    color: #191970;
+
+
+}
+
+.pimg {
+    grid-column-start: 1;
+    grid-column-end: 6;
+	grid-row-start: 2;
+    margin-top:-3rem;
+    margin-left: 2rem;
+    max-width: 50%;
+    max-height: 20%;
+    min-width: 38%;
+    min-height: 50%;
+    object-fit: cover;
+}
+
+.ptitulo2{
+	grid-column-start:3;
+	grid-row-start: 2;
+	justify-content: left;
+	margin-left: 10rem;
+	margin-top: 3.5rem;
+    font-size: 2rem;
+    font-family: Limelight, Roboto Slab;
+    color: #191970;
+
+}
+
+.ptexto2{
+    grid-column-start:3;
+    grid-row-start: 2;
+	justify-content: center;
+	margin-left: 10.5rem;
+	margin-top:6rem;
+	font-size: 1.3rem;
+	font-family: Work Sans, Merriweather Sans;
+	line-height: 1.5rem;
+
+
+
+
+}
+
+.ptitulo3{
+    grid-column-start:3;
+    grid-row-start: 3;
+	justify-content: center;
+	margin-left: 10rem;
+	font-size: 2rem;
+    font-family: Limelight, Roboto Slab;
+    color: #191970;
+
+
+}
+
+.ptexto3{
+    grid-column-start:3;
+    grid-row-start: 3;
+	justify-content: center;
+	margin-left: 10.5rem;
+	margin-top:2.5rem;
+	font-size: 1.3rem;
+	font-family: Work Sans, Merriweather Sans;
+	line-height: 1.5rem;
+
+
+}
+
+.ptexto1{
+    grid-column-start:1;
+    grid-row-start: 2;
+	justify-self: center;
+	margin-left: 2rem;
+	margin-top:0rem;
+	font-size: 1.3rem;
+	font-family: Work Sans, Merriweather Sans;
+	line-height: 1.5rem;
+
+
+
+}
+
+.ptitulo1{
+    grid-column-start:1;
+    grid-row-start: 1;
+	justify-self: center;
+	margin-left: 2rem;
+	margin-top:0rem;
+	font-size: 2rem;
+    font-family: Limelight, Roboto Slab;
+    color: #191970;
+
+}
+
+.ptitulo4{
+    grid-column-start:1;
+    grid-row-start: 4;
+	justify-self: center;
+	margin-left: 2rem;
+	margin-top:1rem;
+	font-size: 2rem;
+	font-family: Limelight, Roboto Slab;
+	color: #191970;
+
+}
+
+.ptexto4{
+    grid-column-start:1;
+    grid-row-start: 5;
+	margin-left: 4rem;
+	justify-self: left;
+	margin-top:0rem;
+	font-size: 1.3rem;
+	margin-bottom: 3rem;
+	font-family: Work Sans, Merriweather Sans;
+	line-height: 2rem;
+
+
+}
+
+.csection { 
+	display: flex;
+	padding-right:1.5rem;
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
+}
+
+.ctitle, .cimg, .ctext{
+	flex-basis: 15rem;
+	
+}
+
+.ctitle{
+	display: flex;
+	flex-grow: 1rem;
+	flex-shrink: 1rem;
+	font-size: 1.25rem;
+	
+
+}
+
+.cimg{
+	display: flex;
+	flex-grow: 1rem;
+	flex-shrink: 1rem;
+
+}
+
+.ctext{
+	display: flex;
+	flex-grow: .5rem;
+	flex-shrink: 1.5rem;
+	
+
+
+}
+
+.csection1 {
+	display: flex;
+	padding-right:1.5rem;
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
+}
+
+.ctitle1, .cimg1, .ctext1{
+	flex-basis: 15rem;
+	
+}
+
+.ctitle1{
+	display: flex;
+	flex-grow: 1rem;
+	flex-shrink: 1rem;
+	font-size: 1.25rem;
+
+}
+
+.cimg1{
+	display: flex;
+	flex-grow: 1rem;
+	flex-shrink: 1rem;
+}
+
+.ctext1{
+	display: flex;
+	flex-grow: .5rem;
+	flex-shrink: 1.5rem;
+}
+
+.csection2 {
+	display: flex;
+	padding-right:1.5rem;
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
+}
+
+.ctitle2, .cimg2, .ctext2{
+	flex-basis: 15rem;
+	
+}
+
+.ctitle2{
+	display: flex;
+	flex-grow: 1rem;
+	flex-shrink: 1rem;
+	font-size: 1.25rem;	
+}
+
+.cimg2{
+	display: flex;
+	flex-grow: 1rem;
+	flex-shrink: 1rem;
+}
+
+.ctext2{
+	display: flex;
+	flex-grow: .5rem;
+	flex-shrink: 1.5rem;
+}
+
+.h11 {
+	position: relative;
+	display: flex;
+	font-size: 2rem;
+}

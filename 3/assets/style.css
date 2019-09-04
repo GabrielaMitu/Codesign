@@ -98,7 +98,7 @@
 	display: grid;
 	margin: 0 auto;
 	grid-template-rows: 10rem 10rem;
-	grid-template-columns: 17rem 25rem 5rem 20rem auto;
+	grid-template-columns: 25rem 5rem 20rem auto;
 	max-width: 80rem;
 	min-width: 79rem;
 }

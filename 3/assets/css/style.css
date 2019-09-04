@@ -371,3 +371,7 @@
 	font-size: 1.75rem;
 	font-family: Limelight, Roboto Slab, sans-serif;
 }
+
+@media (max-width: 360px){
+	
+}

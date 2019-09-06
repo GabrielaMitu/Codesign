@@ -27,8 +27,8 @@
 	font-family: Limelight, "Roboto Slab";
 	color: #191970;
 
-	
 }
+
 .perfil {
 	display: flex;
 	justify-content: center;
@@ -412,6 +412,34 @@
 }
 
 @media (min-width: 361px) {
+	.header1 {
+		border-style: solid;
+		border-width: 0.1rem;
+		margin: 0 auto;
+		height: 4rem;
+		max-width: 80rem;
+		min-width: 79rem;
+		color: #191970;
+		background-color: #A9B5D6;
+	}
+	
+	.nav {
+		display: grid;
+		grid-template-columns: 10rem auto 20rem 4rem;
+		grid-template-rows: 4rem;
+	}
+	
+	.h1 {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		font-size: 2rem;
+		align-self: center;
+		margin:1rem;
+		font-family: Limelight, "Roboto Slab";
+		color: #191970;
+	
+	}
+	
 	.section-menu {
 		display: grid;
 		margin: 0 auto;

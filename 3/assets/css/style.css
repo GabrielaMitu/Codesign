@@ -303,13 +303,17 @@
 }
 
 .maincat{
-	display: flex;
+	display: grid;
 	justify-content: center;
+	grid-template-rows: 0.25fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr; 
 }
 
 .csection { 
-	display: flex;
-	flex-wrap: wrap;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2; 
+	grid-column-end: 3;
 	padding-right:1.5rem;
 	padding-bottom: 1.5rem;
 	padding-top: 1.5rem;
@@ -343,8 +347,10 @@
 }
 
 .csection1 {
-	display: flex;
-	flex-wrap: wrap;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 2; 
+	grid-column-end: 3;
 	padding-right:1.5rem;
 	padding-bottom: 1.5rem;
 	padding-top: 1.5rem;
@@ -378,8 +384,10 @@
 }
 
 .csection2 {
-	display: flex;
-	flex-wrap: wrap;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 2; 
+	grid-column-end: 3;
 	padding-right:1.5rem;
 	padding-bottom: 1.5rem;
 	padding-top: 1.5rem;
@@ -413,8 +421,10 @@
 }
 
 .h11 {
-	display: flex;
-	justify-content: center;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2; 
+	grid-column-end: 3;
 	font-size: 1.75rem;
 	font-family: Limelight, "Roboto Slab", sans-serif;
 }
@@ -525,6 +535,66 @@
 		padding: 5rem;
 	}
 
+
+	.h11{
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 2; 
+		grid-column-end: 3;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		text-align: center;
+	}
+
+
+	.maincat{
+		display: grid;
+		justify-content: center;
+		grid-template-rows: 0.2fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+
+	}
+
+	.csection {
+		justify-content: center; 
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 1; 
+		grid-column-end: 2;
+		text-align: center;
+		align-items: center;
+		padding-left: 1.5rem;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+	}
+
+	.csection1 { 
+		justify-content: center;  
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 2; 
+		grid-column-end: 3;
+		text-align: center;
+		padding-left: 1.5rem;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+	}
+
+	.csection2 { 
+		justify-content: center;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 3; 
+		grid-column-end: 4;
+		text-align: center;
+		padding-left: 1.5rem;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+	}
 
 }
 <<<<<<< HEAD

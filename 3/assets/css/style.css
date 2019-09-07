@@ -7,6 +7,7 @@
 	height: 5em;
 	max-width: 1fr;
 	min-width: 1fr;
+<<<<<<< HEAD
 	color: #191970;
 	background-color: #A9B5D6;
 }
@@ -17,6 +18,8 @@
 	height: 6rem;
 	max-width: 360px;
 	min-width: 80rem;
+=======
+>>>>>>> 3c22b00c9070b7ca5cd584a275b3fbf5ada22b4d
 	color: #191970;
 	background-color: #A9B5D6;
 }
@@ -25,12 +28,15 @@
 	display: grid;
 	grid-template-columns: 50% 30% auto;
 	grid-template-rows: 100%;
+<<<<<<< HEAD
 }
 
 .nav2 {
 	display: grid;
 	grid-template-columns: 30rem 27rem auto 5rem;
 	grid-template-rows: 6rem;
+=======
+>>>>>>> 3c22b00c9070b7ca5cd584a275b3fbf5ada22b4d
 }
 
 .h1 {
@@ -64,6 +70,7 @@
 	height:2.5rem;
 	margin-left: 1.5rem;
 	margin-top: 1rem;
+<<<<<<< HEAD
 }
 
 .perfil2 {
@@ -73,6 +80,8 @@
 	align-self: center;
 	width: 4rem;
 	height: 4rem;
+=======
+>>>>>>> 3c22b00c9070b7ca5cd584a275b3fbf5ada22b4d
 }
 
 .buscar {
@@ -469,6 +478,7 @@
 		color: #191970;
 		background-color: #A9B5D6;
 	}
+<<<<<<< HEAD
 
 	.header2 {
 		border-style: solid;
@@ -481,18 +491,25 @@
 		background-color: #A9B5D6;
 	}
 
+=======
+	
+>>>>>>> 3c22b00c9070b7ca5cd584a275b3fbf5ada22b4d
 	.nav {
 		display: grid;
 		grid-template-columns: 10rem auto 20rem 4rem;
 		grid-template-rows: 4rem;
 	}
 
+<<<<<<< HEAD
 	.nav2 {
 		display: grid;
 		grid-template-columns: 10rem auto 20rem 4rem;
 		grid-template-rows: 4rem;
 	}
 
+=======
+	
+>>>>>>> 3c22b00c9070b7ca5cd584a275b3fbf5ada22b4d
 	.h1 {
 		grid-column-start: 1;
 		grid-column-end: 2;
@@ -540,6 +557,7 @@
 
 	}
 
+<<<<<<< HEAD
 	.buscar2 {
 		grid-column-start: 3;
 		align-self: center;
@@ -547,6 +565,8 @@
 		height: 3rem;
 	}
 
+=======
+>>>>>>> 3c22b00c9070b7ca5cd584a275b3fbf5ada22b4d
 	.section-menu {
 		display: grid;
 		margin: 0 auto;

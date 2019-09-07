@@ -485,11 +485,10 @@
 		max-width: 80rem;
 		min-width: 79rem;
 		padding: 5rem;
-=======
-	font-family: Limelight, "Roboto Slab", sans-serif;
-}
+		font-family: Limelight, "Roboto Slab", sans-serif;
+	}
 
-@media (min-width: 361px) {
+
 	.header1 {
 		border-style: solid;
 		border-width: 0.1rem;
@@ -644,12 +643,10 @@
 		display: inline-flex;
 		align-items: center;
 		margin: 2rem;		
->>>>>>> 995b873212d844d8049650d4cdc08a4e2a0d68a6
 	}
 
 	.section-menu-text {
 		font-size: 2rem;
-<<<<<<< HEAD
 		font-family: Limelight, Roboto Slab, sans-serif;
 		color: #191970;
 
@@ -832,44 +829,68 @@
 	}
 
 	.h11{
-		position: relative;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 2; 
+		grid-column-end: 3;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		text-align: center;
+	}
+
+
+	.maincat{
+		display: grid;
+		justify-content: center;
+		grid-template-rows: 0.2fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 
 	}
 
-	.ctitle{
+	.csection {
+		justify-content: center; 
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 1; 
+		grid-column-end: 2;
+		text-align: center;
+		align-items: center;
+		padding-left: 1.5rem;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		font-size: 1.2rem;
 
 	}
 
-	.cimg{
+	.csection1 { 
+		justify-content: center;  
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 2; 
+		grid-column-end: 3;
+		text-align: center;
+		padding-left: 1.5rem;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		font-size: 1.2rem;
 
 	}
 
-	.ctext{
-
-	}
-	.ctitle1{
-
-	}
-
-	.cimg1{
-
-	}
-
-	.ctext1{
-		
-	}
-	.ctitle2{
-
-	}
-
-	.cimg2{
-
-	}
-
-	.ctext2{
-		
+	.csection2 { 
+		justify-content: center;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 3; 
+		grid-column-end: 4;
+		text-align: center;
+		padding-left: 1.5rem;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		font-size: 1.2rem;
 	}
 
 }
-
->>>>>>> 995b873212d844d8049650d4cdc08a4e2a0d68a6

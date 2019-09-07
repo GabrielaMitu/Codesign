@@ -16,11 +16,10 @@
 
 .header2 {
 	border-style: solid;
-	border-width: 0.1rem;
 	margin: 0 auto;
-	height: 5em;
-	max-width: 1fr;
-	min-width: 1fr;
+	height: 6rem;
+	max-width: 360px;
+	min-width: 80rem;
 	color: #191970;
 	background-color: #A9B5D6;
 }
@@ -30,6 +29,12 @@
 	grid-template-columns: 50% 30% auto;
 	grid-template-rows: 100%;
 
+}
+
+.nav2 {
+	display: grid;
+	grid-template-columns: 30rem 27rem auto 5rem;
+	grid-template-rows: 6rem;
 }
 
 
@@ -67,6 +72,14 @@
 	margin-top: 1rem;
 }
 
+.perfil2 {
+	display: flex;
+	justify-content: center;
+	grid-column-start: 4;
+	align-self: center;
+	width: 4rem;
+	height: 4rem;
+}
 
 .buscar {
 	grid-column-start: 2;
@@ -89,16 +102,17 @@
 .img10 {
 	display: flex;
 	margin: 0 auto;
-	height: 2rem;
-	width: 4rem;
+	height: 35rem;
+	width: 50rem;
 }
 
 .cabeca {
 	margin: 0 auto;
-	max-width: 4rem;
-	min-width:  4rem;
-	padding: 5rem;
-}
+	max-width: 80rem;
+	min-width: 79rem;
+	margin-top: 10rem;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .um {
@@ -436,7 +450,6 @@
 	display: flex;
 	justify-content: center;
 	font-size: 1.75rem;
-<<<<<<< HEAD
 	font-family: Limelight, Roboto Slab, sans-serif;
 }
 
@@ -506,7 +519,7 @@
 		margin: 0 auto;
 		height: 4rem;
 		max-width: 80rem;
-		min-width: 79rem;
+		min-width: 361px;
 		color: #191970;
 		background-color: #A9B5D6;
 	}
@@ -588,20 +601,15 @@
 
 	.um {
 		grid-column-start: 2;
-		grid-column-end: 4;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 1;
 		display:inline-flex;
 		align-items: center;
-		margin: 1rem;
+		margin: 1rem
 
 	}
 
-	.um-dois {
-		grid-column-start: 4;
-		grid-column-end: 5;
-		display: inline-flex;
-		align-items: center;
-		margin: 2rem;
-	}
 
 	.logos {
 		height: 3rem;

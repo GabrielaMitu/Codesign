@@ -594,7 +594,7 @@
 		display: grid;
 		margin: 0 auto;
 		grid-template-rows: 10rem 10rem;
-		grid-template-columns: 17rem 30rem 3rem 25rem auto;
+		grid-template-columns: 5rem 34rem 25rem auto;
 		max-width: 80rem;
 		min-width: 79rem;
 	}
@@ -611,17 +611,6 @@
 	}
 
 
-	.logos {
-		height: 3rem;
-		width: 3rem;
-		margin: 1rem;
-		grid-column-end: 3;
-		grid-row-start: 1;
-		grid-row-end: 1;
-		display:inline-flex;
-		align-items: center;
-		margin: 1rem		
-	}
 
 	.um-dois {
 		grid-column-start: 3;
@@ -658,16 +647,6 @@
 		font-family: Limelight, Roboto Slab, sans-serif;
 		color: #191970;
 
-	}
-
-
-	.section-menu {
-		display: grid;
-		margin: 0 auto;
-		grid-template-rows: 10rem 10rem;
-		grid-template-columns: 17rem 30rem 3rem 25rem auto;
-		max-width: 80rem;
-		min-width: 79rem;
 	}
 
 

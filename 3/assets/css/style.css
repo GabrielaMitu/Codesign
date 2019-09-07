@@ -7,40 +7,25 @@
 .header1 {
 	border-style: solid;
 	margin: 0 auto;
-<<<<<<< HEAD
-	height: 6rem;
-	max-width: 640px;
-	min-width: 80rem;
-=======
 	height: 5em;
 	max-width: 1fr;
 	min-width: 1fr;
->>>>>>> 23fbff76cd28e2392b3414e6e83f01e55bb9e2e4
 	color: #191970;
 	background-color: #A9B5D6;
 }
 
 .nav {
 	display: grid;
-<<<<<<< HEAD
-	grid-template-columns: 30rem 27rem auto 6rem;
-	grid-template-rows: 6rem;
-=======
 	grid-template-columns: 50% 30% auto;
 	grid-template-rows: 100%;
->>>>>>> 23fbff76cd28e2392b3414e6e83f01e55bb9e2e4
 }
 
 .h1 {
 	grid-column-start: 1;
 	grid-column-end: 2;
-<<<<<<< HEAD
-	font-size: 4rem;
-=======
 	font-size: 2.2rem;
 	align-self: center;
 	margin-top: 5rem;
->>>>>>> 23fbff76cd28e2392b3414e6e83f01e55bb9e2e4
 	margin:1rem;
 	font-family: Limelight, Roboto Slab;
 	color: #191970;
@@ -53,30 +38,20 @@
 	grid-column-start: 3;
 	grid-row-start: 1;
 	align-self: center;
-<<<<<<< HEAD
-	width: 4rem;
-	height: 4rem;
-=======
 	width: 2.5rem;
 	height:2.5rem;
 	margin-left: 1.5rem;
 	margin-top: 1rem;
->>>>>>> 23fbff76cd28e2392b3414e6e83f01e55bb9e2e4
 }
 
 .buscar {
 	grid-column-start: 2;
 	align-self: center;
-<<<<<<< HEAD
-	width: 22rem;
-	height: 4rem;
-=======
 	width: 6rem;
 	height: 1rem;
 	margin-right: 2rem;
 	margin-left: 2rem;
 	margin-bottom: -2.2rem;
->>>>>>> 23fbff76cd28e2392b3414e6e83f01e55bb9e2e4
 
 }
 

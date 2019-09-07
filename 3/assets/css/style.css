@@ -464,21 +464,14 @@
 		color: #191970;
 		background-color: #A9B5D6;
 	}
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> 23fbff76cd28e2392b3414e6e83f01e55bb9e2e4
 	.nav {
 		display: grid;
 		grid-template-columns: 10rem auto 20rem 4rem;
 		grid-template-rows: 4rem;
 	}
-<<<<<<< HEAD
 
-=======
 	
->>>>>>> 23fbff76cd28e2392b3414e6e83f01e55bb9e2e4
 	.h1 {
 		grid-column-start: 1;
 		grid-column-end: 2;
@@ -487,7 +480,6 @@
 		margin:1rem;
 		font-family: Limelight, "Roboto Slab";
 		color: #191970;
-<<<<<<< HEAD
 
 		
 	}
@@ -508,11 +500,6 @@
 
 	}
 
-=======
-	
-	}
-	
->>>>>>> 23fbff76cd28e2392b3414e6e83f01e55bb9e2e4
 	.section-menu {
 		display: grid;
 		margin: 0 auto;

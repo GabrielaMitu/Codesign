@@ -14,11 +14,28 @@
 	background-color: #A9B5D6;
 }
 
+=======
+.header2 {
+	border-style: solid;
+	margin: 0 auto;
+	height: 6rem;
+	max-width: 360px;
+	min-width: 80rem;
+	color: #191970;
+	background-color: #A9B5D6;
+}
+
 .nav {
 	display: grid;
 	grid-template-columns: 50% 30% auto;
 	grid-template-rows: 100%;
 
+}
+
+.nav2 {
+	display: grid;
+	grid-template-columns: 30rem 27rem auto 5rem;
+	grid-template-rows: 6rem;
 }
 
 
@@ -47,6 +64,14 @@
 	margin-top: 1rem;
 }
 
+.perfil2 {
+	display: flex;
+	justify-content: center;
+	grid-column-start: 4;
+	align-self: center;
+	width: 4rem;
+	height: 4rem;
+}
 
 .buscar {
 	grid-column-start: 2;
@@ -59,6 +84,94 @@
 
 }
 
+
+.buscar2 {
+	grid-column-start: 2;
+	align-self: center;
+	width: 22rem;
+	height: 4rem;
+}
+
+.img10 {
+	display: flex;
+	margin: 0 auto;
+	height: 35rem;
+	width: 50rem;
+}
+
+.cabeca {
+	margin: 0 auto;
+	max-width: 80rem;
+	min-width: 79rem;
+	margin-top: 10rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.um {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	display:inline-flex;
+	align-items: center;
+	margin: 1rem;
+
+}
+
+.um-dois {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;	
+	display: inline-flex;
+	align-items: center;
+	margin: 1rem;
+}
+
+.um-tres {
+	display:inline-flex;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	align-items: center;
+	margin: 1rem;
+}
+
+.um-quatro {
+	display:inline-flex;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 4;
+	grid-row-end: 4;
+	align-items: center;
+	margin: 1rem;
+}
+
+.logos {
+	height: 4rem;
+	width: 4rem;
+	margin: 1rem;
+}
+
+.section-menu-text {
+	font-size: 3rem;
+	font-family: Limelight, "Roboto Slab", sans-serif;
+	color: #191970;
+
+}
+
+.section-menu {
+	display: grid;
+	margin: 0 auto;
+	justify-content: center;
+	grid-template-rows: 20rem 20rem 20rem 20rem;
+	grid-template-columns: 40rem;
+	max-width: 80rem;
+	min-width: 79rem;
+
+}
 
 
 .header{
@@ -330,7 +443,6 @@
 	display: flex;
 	justify-content: center;
 	font-size: 1.75rem;
-<<<<<<< HEAD
 	font-family: Limelight, Roboto Slab, sans-serif;
 }
 
@@ -364,6 +476,15 @@
 
 
 
+	.cabeca {
+		margin: 0 auto;
+		max-width: 80rem;
+		min-width: 79rem;
+		padding: 5rem;
+		font-family: Limelight, "Roboto Slab", sans-serif;
+	}
+
+
 	.header1 {
 		border-style: solid;
 		border-width: 0.1rem;
@@ -375,6 +496,16 @@
 		background-color: #A9B5D6;
 	}
 
+	.header2 {
+		border-style: solid;
+		border-width: 0.1rem;
+		margin: 0 auto;
+		height: 4rem;
+		max-width: 80rem;
+		min-width: 361px;
+		color: #191970;
+		background-color: #A9B5D6;
+	}
 
 	.nav {
 		display: grid;
@@ -382,36 +513,131 @@
 		grid-template-rows: 4rem;
 	}
 
+	.nav2 {
+		display: grid;
+		grid-template-columns: 10rem auto 20rem 4rem;
+		grid-template-rows: 4rem;
+	}
+
+	.h1 {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		font-size: 2rem;
+		align-self: center;
+		margin:1rem;
+		font-family: Limelight, "Roboto Slab";
+		color: #191970;
+
+	
+	}
+	.h2 {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		font-size: 2rem;
+		align-self: center;
+		margin:1rem;
+		font-family: Limelight, "Roboto Slab";
+		color: #191970;
+	}
+
+	.perfil {
+		display: flex;
+		justify-content: center;
+		grid-column-start: 4;
+		align-self: center;
+		width: 3.5rem;
+		height: 3.5rem;
+	}
+
+	.perfil2 {
+		display: flex;
+		justify-content: center;
+		grid-column-start: 4;
+		align-self: center;
+		width: 3.5rem;
+		height: 3.5rem;
+	}
+
+	.buscar {
+		grid-column-start: 3;
+		align-self: center;
+		width: 17rem;
+		height: 3rem;
+
+	}
+
+	.buscar2 {
+		grid-column-start: 3;
+		align-self: center;
+		width: 17rem;
+		height: 3rem;
+	}
+
+	.section-menu {
+		display: grid;
+		margin: 0 auto;
+		grid-template-rows: 10rem 10rem;
+		grid-template-columns: 5rem 34rem 25rem auto;
+		max-width: 80rem;
+		min-width: 79rem;
+	}
 
 	.um {
 		grid-column-start: 2;
-		grid-column-end: 4;
-		display:inline-flex;
-		align-items: center;
-		margin: 1rem;
-
-	}
-
-	.um-dois {
-		grid-column-start: 4;
-		grid-column-end: 5;
-		display: inline-flex;
-		align-items: center;
-		margin: 2rem;
-	}
-
-	.logos {
-		height: 3rem;
-		width: 3rem;
-		margin: 1rem;
 		grid-column-end: 3;
 		grid-row-start: 1;
 		grid-row-end: 1;
 		display:inline-flex;
 		align-items: center;
-		margin: 1rem		
+		margin: 1rem
+
 	}
 
+
+	.um-dois {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 1;
+		display: inline-flex;
+		align-items: center;
+		margin: 2rem;	
+	}
+
+	.um-tres {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 2;
+		display:inline-flex;
+		align-items: center;
+		margin: 1rem
+	}
+
+	.um-quatro {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 2;		
+		display: inline-flex;
+		align-items: center;
+		margin: 2rem;		
+	}
+
+	.section-menu-text {
+		font-size: 2rem;
+		font-family: Limelight, Roboto Slab, sans-serif;
+		color: #191970;
+
+	}
+
+
+	.header{
+		border-style: solid;
+		border-width: 0rem 0rem 1.5rem 0rem;
+		margin: 2rem;
+		padding: 2rem;
+	}
 
 
 	.container1{
@@ -576,44 +802,68 @@
 	}
 
 	.h11{
-		position: relative;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 2; 
+		grid-column-end: 3;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		text-align: center;
+	}
+
+
+	.maincat{
+		display: grid;
+		justify-content: center;
+		grid-template-rows: 0.2fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 
 	}
 
-	.ctitle{
+	.csection {
+		justify-content: center; 
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 1; 
+		grid-column-end: 2;
+		text-align: center;
+		align-items: center;
+		padding-left: 1.5rem;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		font-size: 1.2rem;
 
 	}
 
-	.cimg{
+	.csection1 { 
+		justify-content: center;  
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 2; 
+		grid-column-end: 3;
+		text-align: center;
+		padding-left: 1.5rem;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		font-size: 1.2rem;
 
 	}
 
-	.ctext{
-
-	}
-	.ctitle1{
-
-	}
-
-	.cimg1{
-
-	}
-
-	.ctext1{
-		
-	}
-	.ctitle2{
-
-	}
-
-	.cimg2{
-
-	}
-
-	.ctext2{
-		
+	.csection2 { 
+		justify-content: center;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 3; 
+		grid-column-end: 4;
+		text-align: center;
+		padding-left: 1.5rem;
+		padding-right:1.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+		font-size: 1.2rem;
 	}
 
 }
-
->>>>>>> 995b873212d844d8049650d4cdc08a4e2a0d68a6

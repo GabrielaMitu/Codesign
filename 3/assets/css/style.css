@@ -62,15 +62,15 @@
 .img10 {
 	display: flex;
 	margin: 0 auto;
-	height: 35rem;
-	width: 50rem;
+	height: 9.5rem;
+	width: 17rem;
 }
 
 .cabeca {
 	margin: 0 auto;
-	max-width: 80rem;
-	min-width: 79rem;
-	margin-top: 10rem;
+	max-width: 360px;
+	min-width: 360px;
+	margin-top: 5rem;
 	margin-right: auto;
 	margin-left: auto;
 }

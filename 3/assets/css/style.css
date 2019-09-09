@@ -466,22 +466,6 @@
 
 	
 	}
-	.perfil {
-		justify-self: center;
-		grid-column-start: 3;
-		width: 3.5rem;
-		height: 3.9rem;
-		margin-top: .5rem;
-	}
-
-	.buscar {
-		grid-column-start: 2;
-		justify-self: center;
-		width: 17rem;
-		height: 3rem;
-		margin-top: -1rem;
-	}
-
 
 
 	.cabeca {
@@ -497,9 +481,9 @@
 		border-style: solid;
 		border-width: 0.1rem;
 		margin: 0 auto;
-		height: 5rem;
-		max-width: 90%;
-		min-width: 30%;
+		height: 4rem;
+		max-width: 80rem;
+		min-width: 360px;
 		color: #191970;
 		background-color: #A9B5D6;
 	}
@@ -517,7 +501,7 @@
 
 	.nav {
 		display: grid;
-		grid-template-columns: 2fr 1fr 1fr;
+		grid-template-columns: 10rem auto 20rem 4rem;
 		grid-template-rows: 4rem;
 	}
 
@@ -555,6 +539,8 @@
 		align-self: center;
 		width: 3.5rem;
 		height: 3.5rem;
+		margin-left: 0rem;
+		margin-top: 0rem;
 	}
 
 	.perfil2 {
@@ -571,6 +557,7 @@
 		align-self: center;
 		width: 17rem;
 		height: 3rem;
+		margin-bottom: 0rem;
 
 	}
 

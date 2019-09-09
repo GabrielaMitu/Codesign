@@ -103,15 +103,15 @@
 .img10 {
 	display: flex;
 	margin: 0 auto;
-	height: 35rem;
-	width: 50rem;
+	height: 9s.5rem;
+	width: 17rem;
 }
 
 .cabeca {
 	margin: 0 auto;
-	max-width: 80rem;
-	min-width: 79rem;
-	margin-top: 10rem;
+	max-width: 1fr;
+	min-width: 1fr;
+	margin-top: 5rem;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -158,13 +158,13 @@
 }
 
 .logos {
-	height: 4rem;
-	width: 4rem;
+	height: 2.5rem;
+	width: 2.5rem;
 	margin: 1rem;
 }
 
 .section-menu-text {
-	font-size: 3rem;
+	font-size: 2.2rem;
 	font-family: Limelight, "Roboto Slab", sans-serif;
 	color: #191970;
 
@@ -175,9 +175,9 @@
 	margin: 0 auto;
 	justify-content: center;
 	grid-template-rows: 20rem 20rem 20rem 20rem;
-	grid-template-columns: 40rem;
-	max-width: 80rem;
-	min-width: 79rem;
+	grid-template-columns: 0.2fr 0.8fr;
+	max-width: 1fr;
+	min-width: 0.8fr;
 
 }
 

@@ -15,27 +15,11 @@
 }
 
 
-.header2 {
-	border-style: solid;
-	margin: 0 auto;
-	height: 6rem;
-	max-width: 360px;
-	min-width: 80rem;
-	color: #191970;
-	background-color: #A9B5D6;
-}
-
 .nav {
 	display: grid;
 	grid-template-columns: 50% 30% auto;
 	grid-template-rows: 100%;
 
-}
-
-.nav2 {
-	display: grid;
-	grid-template-columns: 30rem 27rem auto 5rem;
-	grid-template-rows: 6rem;
 }
 
 
@@ -51,14 +35,6 @@
 
 	
 }
-.h2 {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	font-size: 4rem;
-	margin:1rem;
-	font-family: Limelight, "Roboto Slab";
-	color: #191970;
-}
 
 .perfil {
 	display: flex;
@@ -72,15 +48,6 @@
 	margin-top: 1rem;
 }
 
-.perfil2 {
-	display: flex;
-	justify-content: center;
-	grid-column-start: 4;
-	align-self: center;
-	width: 4rem;
-	height: 4rem;
-}
-
 .buscar {
 	grid-column-start: 2;
 	align-self: center;
@@ -92,13 +59,6 @@
 
 }
 
-
-.buscar2 {
-	grid-column-start: 2;
-	align-self: center;
-	width: 22rem;
-	height: 4rem;
-}
 
 .img10 {
 	display: flex;

@@ -8,6 +8,8 @@
     <link href = "assets/css/style.css" rel = "stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width= device-width, initial-scale = 1">
+    <script src="assets/js/codes.js"></script>
+    <script src="assets/js/categoria.js"></script>
   </head> 
 
   <body class='bodycat'>
@@ -22,43 +24,17 @@
  <main class="maincat">
 
 
-  <h2 class = 'h11'>
-    <br> Eletrônica
-  </h2>
-
-  <section class = 'csection'>  
-
-    <div class="ctitle"><h3><a href = 'assets/img/projeto.html'> Confecção de um abajur</a></h3></div>
-    <div class="cimg"><img src="assets/img/abajur.jpg" alt="Abajur de girafa" height="150" width="150"></div>
-    <div class="ctext"><p>
-     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-     et dolore magna aliqua. "
-   </p></div>
-
-
- </section>
-
+ 
   <section class = 'csection1'> 
-
-    <div class="ctitle1"><h3><a href = 'projeto.html'> Estação meteorológica</a></h3></div>
+    {{#each portfolio}}
+    <div class="ctitle1"><h3><a href = "projeto.html?key={{@key}}">{{this.titulo}}</a></h3></div>
     <div class="cimg1"><img src="assets/img/estacao.jpeg" alt="estacao meteorologica" height="150" width="150"></div>
-    <div class="ctext1"><p>
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-    et dolore magna aliqua. "
+    <div class="ctext1">{{this.descricao}}<p>
   </p></div>
-
+    {{/each}}
   </section>
 
-  <section class = 'csection2'> 
-
-    <div class="ctitle2"><h3><a href = 'projeto.html'> Motor PWM</a></h3></div>
-    <div class="cimg2"><img src="assets/img/motor.jpg" alt="motor pwm"height="150" width="150"></div>
-    <div class="ctext2"><p>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-      et dolore magna aliqua. "
-    </p></div>
-
-  </section>  
+ 
 
 
 </main>

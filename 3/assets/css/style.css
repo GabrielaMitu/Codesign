@@ -493,7 +493,7 @@
  	grid-column-start:2;
     grid-row-start: 5;
 	justify-self: center;
-	margin-left: .5rem;
+	margin-left: 2rem;
 	margin-top: -1.5rem;
 	font-size: 1.2rem;
 	margin-bottom: 3rem;
@@ -707,7 +707,7 @@
 		grid-column-end: auto;
 		display:inline-flex;
 		align-items: center;
-		margin: 1rem
+		margin: 1rem;
 
 	}
 
@@ -743,7 +743,7 @@
 	}
 
 	.section-menu-text {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		font-family: Limelight, Roboto Slab, sans-serif;
 		color: #191970;
 
@@ -854,8 +854,8 @@
 		font-size: 1.7rem;
 		font-family: 'PT Sans', Merriweather, serif;
 		line-height: 3.0rem;
-		margin-left: auto;
-	    margin-right: auto;
+		margin-left: 3rem;
+	    margin-right: 3rem;
 
 
 
@@ -878,7 +878,7 @@
 	    grid-column-start:2;
 	    grid-row-start: 2;
 	    grid-column-end: 3;
-		margin-left: 1rem;
+		margin-left: 2rem;
 		margin-right: auto;
 		margin-top: 8rem;
 		font-size: 2.5rem;
@@ -888,11 +888,14 @@
 
 	}
 
+
+
 	.ptexto1{
 	    grid-column-start:2;
 	    grid-row-start: 3;
 	    grid-column-end: 3;
-		margin-left: 1.5rem;
+		margin-left: 2rem;
+		margin-right: 8rem;
 		margin-top: 2rem;
 		justify-self: left;
 		margin-bottom: 6rem;
@@ -999,6 +1002,5 @@
 		margin-top: 0rem;
 		font-family: Limelight, "Roboto Slab", sans-serif;
 	}
-
 
 }

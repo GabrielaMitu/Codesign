@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Limelight|Merriweather+Sans&display=swap" rel="stylesheet"> 
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="assets/js/projeto.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+
+<body class="tudo">
+  <header class = 'header1'>
+      <ul class='nav'>
+
+
+        <li class = "h1">Portfolio</li> >
+        <li class="menuitem1"><a href="categoria.html?key={{@key}}">Eletrônica</a></li>
+        <li class="menuitem2"><a href="categoria.html?key={{@key}}">Cálculo</a></li>
+        <li class="menuitem3">Manufatura</li>
+        <li class="menuitem4">Programação</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main" >
+    {{#each projetos}}>
+    <div class="container1" >
+      <h2 class="ptitle">{{this.title}}</h2>
+
+      <img class= "pimg" src="assets/img/Estacao.jpeg" alt="Estação Meteorologica" height="360" width="1000">
+
+      <h3 class="ptitulo3">Equipe</h3>
+      <ul class="ptexto3">
+        <p> {{this.equipe}} </p>
+        
+      </ul>
+
+      <h2 class="ptitulo2">Data</h2>
+      <p class= "ptexto2">{{this.data}}</p>
+
+
+      <h3 class="ptitulo1"> Descrição</h3>
+      <p class= "ptexto1">{{this.descricao}}</p>
+
+      <h3 class="ptitulo4">Materiais e Ferramentas</h3>
+      <p class="ptexto4">
+        {{this.materiais}}
+      </p>
+
+    </div>
+
+  </main>
+   
+</body>
+</html>

@@ -699,7 +699,7 @@
 		display: grid;
 		margin: 0 auto;
 		grid-template-rows: 10rem 10rem;
-		grid-template-columns: 30rem 30rem;
+		grid-template-columns: 25rem 25rem;
 	}
 
 	.um {
@@ -743,7 +743,7 @@
 	}
 
 	.section-menu-text {
-		font-size: 3rem;
+		font-size: 1.8rem;
 		font-family: Limelight, Roboto Slab, sans-serif;
 		color: #191970;
 

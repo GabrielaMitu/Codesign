@@ -14,27 +14,31 @@
 
   <body class='bodycat'>
    <header class = 'header1'>
-    <nav class='nav'>
-     <h1 class = "h1">Portfolio</h1>
-     <img class='buscar' src ="assets/img/buscar.png" alt = "buscar">
-     <img class = 'perfil' src = assets/img/perfil.png alt="Imagens dos projetos">
-   </nav>
+<<<<<<< HEAD
+     <div class='nav'>
+        <p><a class = "h1" href="index.html">Portfolio</a></p>
+        {{#each portfolio}} 
+
+        <p><a class="submenu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a></p> 
+        {{/each}}
+       </div>
+
  </header>
 
-
- <ul class="maincat">
+ <main class="maincat">
 
   <section class = 'csection1'> 
    {{#each projetos}}
 
     <div class="ctitle1">
 <h3><a class="linkx" href = "projeto.html?pai=value&key={{@key}}">{{this.titulo}}</a></h3></div>
-    <!-- <div class="cimg1"><img src="assets/img/{{this.titulo}}.jpeg" alt="{{this.titulo}}" height="150" width="150"></div> -->
-    <p class="ctext1">{{this.descricao}}</p>
-    <img class='cimg1' src = assets/img/{{@key}}.png alt="imagens" >{{this.categoria}}
+    <div class="ctext1">{{this.descricao}}</div>
+
+    <img class="cimg1" src="assets/img/{{this.titulo}}.png" alt={{this.titulo}} height="360" width="1000">
     {{/each}}
+
   </section>
-</ul>>
+</main>
 
 
 </body>

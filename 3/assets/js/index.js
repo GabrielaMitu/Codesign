@@ -5,5 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
     context = data
     console.log(context)
     coDesReplace('.section-menu', context)
+
   })
+
+
+  db.download('/', function(data) {
+    context = data
+    coDesReplace('.nav', context)
 })
+
+  })
+

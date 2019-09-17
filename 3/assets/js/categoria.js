@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
       replace em múltiplas tags se alguma
       estiver dentro de outra! Veja o HTML
       e note que não é o caso das abaixo.
-
       É sério. Se fizer isso, você realmente
       vai se arrepender. Você foi avisado.
     */
@@ -20,6 +19,13 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(context)
     coDesReplace('.csection1', context)
 
-    
   })
+
+
+  db.download('/', function(data) {
+    context = data
+    coDesReplace('.nav', context)
 })
+
+  })
+

@@ -17,30 +17,24 @@
     <nav class='nav'>
      <h1 class = "h1">Portfolio</h1>
      <img class='buscar' src ="assets/img/buscar.png" alt = "buscar">
-     <img class = 'perfil' src = https://picsum.photos/100/50/?random alt="Imagens dos projetos">
+     <img class = 'perfil' src = assets/img/perfil.png alt="Imagens dos projetos">
    </nav>
  </header>
 
- <main class="maincat">
 
+ <ul class="maincat">
 
- 
   <section class = 'csection1'> 
-    {{#each projetos}}
+   {{#each projetos}}
 
     <div class="ctitle1">
 <h3><a class="linkx" href = "projeto.html?pai=value&key={{@key}}">{{this.titulo}}</a></h3></div>
     <!-- <div class="cimg1"><img src="assets/img/{{this.titulo}}.jpeg" alt="{{this.titulo}}" height="150" width="150"></div> -->
-    <div class="ctext1"><p>{{this.descricao}}</p></div>
-    <img class='cimg1' src = assets/img/{{this.titulo}}.png alt="imagens" >
+    <p class="ctext1">{{this.descricao}}</p>
+    <img class='cimg1' src = assets/img/{{@key}}.png alt="imagens" >{{this.categoria}}
     {{/each}}
-
   </section>
-
- 
-
-
-</main>
+</ul>>
 
 
 </body>

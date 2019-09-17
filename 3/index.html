@@ -24,15 +24,20 @@
        </div>
 
   </header>
-       <div class='dropdown'>
-        <b><a class = "h1" href="index.html">Portfolio</a></p>
+
+  <header class="header2">
+    <div class="nav2">
+        <p><a class = "h12" href="index.html">Portfolio</a></p>
         {{#each portfolio}} 
           <button class="dropbtn">Categorias</button>
-                <div class="dropdown-content">
+                <p class="dropdown-content">
                      <a class="submenu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
-                </div>
-        {{/each}}
+                        {{/each}}
+
+                </p>
         </div>
+
+      </header>
 
 
   </header>

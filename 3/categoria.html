@@ -24,6 +24,21 @@
 
  </header>
 
+ <header class="header2">
+    <div class="nav2">
+        <p><a class = "h12" href="index.html">Portfolio</a></p>
+          <button class="dropbtn">Menu</button>
+                <ul class="dropdown-content">
+                    {{#each portfolio}} 
+                     <li><a  href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+              {{/each}}
+
+                </ul>
+        </div>
+
+      </header>
+
+
  <main class="maincat">
 
   <section class = 'csection1'> 

@@ -22,5 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.nav', context)
 })
 
+  db.download('/', function(data) {
+    context = data
+    coDesReplace('.nav2', context)
+})
+
   })
 

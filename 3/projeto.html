@@ -27,11 +27,10 @@
   </header>
 
   <main class="main" >
-    {{#each projetos}}>
     <div class="container1" >
-      <h2 class="ptitle">{{this.title}}</h2>
+      <h2 class="ptitle">{{this.titulo}}</h2>
 
-      <img class= "pimg" src="assets/img/{{this.categoria}}.jpeg" alt="Estação Meteorologica" height="360" width="1000">
+      <img class= "pimg" src="assets/img/{{this.titulo}}.png" alt={{this.titulo}} height="360" width="1000">
 
       <h3 class="ptitulo3">Equipe</h3>
       <ul class="ptexto3">

@@ -24,6 +24,17 @@
 
        </div>
 
+       <div class='dropdown'>
+        <b><a class = "h1" href="index.html">Portfolio</a></p>
+        {{#each portfolio}} 
+          <button class="dropbtn">Categorias</button>
+                <div class="dropdown-content">
+                     <a class="submenu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
+                </div>
+        {{/each}}
+        </div>
+
+
   </header>
   <div class="intro">
     <p class = "bem-vindo" id="vertical"> Bem vindo ao meu portfolio</p>

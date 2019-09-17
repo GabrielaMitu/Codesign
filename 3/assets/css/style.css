@@ -534,14 +534,14 @@
 	grid-column-end: 3;
 	justify-content: center;
 	justify-self:center;
-	font-size:1rem;
+	font-size:1.5rem;
 	margin-left:auto;
 	margin-right:auto;
 	border-style: solid;
 	border-width: 0.1rem;
 	height:5rem;
 	background-color: #9f9fdf;
-	margin-bottom:- 3rem;
+	margin-bottom: 0rem;
 	font-family: Limelight, "Roboto Slab", sans-serif;
 }
 

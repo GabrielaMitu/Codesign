@@ -514,22 +514,37 @@
 
 }
 
-.csection1{
-	grid-row-start: 2;
-	grid-row-end: auto;
+.csection1 { 
+	justify-self: center;  
+	grid-row-start: 1;
+	grid-column-start: 1;
+	grid-row-end:3;
+	grid-column-end: 3; 
+	text-align: center;
+	padding-left: 1.5rem;
+	padding-right:1.5rem;
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
+	
 }
+
 .ctitle1{
 	grid-row-start: 2;
-	grid-column-start: 1;
-	grid-row-end: auto;
-	grid-column-end: 2;
+	grid-column-start:1;
+	grid-column-end: 3;
+	justify-content: center;
 	justify-self:center;
-	font-size: .7rem;
-	margin-left:.7rem;
-	margin-top: 2rem;
+	font-size:1rem;
+	margin-left:auto;
+	margin-right:auto;
+	border-style: solid;
+	border-width: 0.1rem;
+	height:5rem;
+	background-color: #9f9fdf;
+	margin-bottom:- 3rem;
 	font-family: Limelight, "Roboto Slab", sans-serif;
-
 }
+
 
 .cimg1{
 	grid-row-start: 3;
@@ -543,22 +558,13 @@
 }
 
 .ctext1{
-	grid-column-start:2;
-	grid-column-end: 3;
-	grid-row-end: auto;
-
-	grid-row-start: 2;
-	margin-top: -9rem;
-	margin-left: 0rem;
-	margin-right: .3rem;
-	font-size: .5rem;
-
+	margin-bottom:1rem;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 2rem;
+	font-size: 1rem;
 	font-family: 'PT Sans', Merriweather, serif;
 }
-
-
-
-
 
 .h11 {
 	grid-row-start: 1;
@@ -932,8 +938,8 @@
 
 	.csection1 { 
 		justify-self: center;  
-		grid-row-start: 2;
-		grid-column-start: 2;
+		grid-row-start: 1;
+		grid-column-start: 1;
 		grid-row-end:3;
 		grid-column-end: 3; 
 		text-align: center;

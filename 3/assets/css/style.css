@@ -507,7 +507,7 @@
 	width: 100%;
 }
 
-.maincat{;
+.maincat{
 	display: grid;
 	grid-template-rows: 20% auto;
 	grid-template-columns: 50% 50%;
@@ -995,7 +995,4 @@
 	}
 
 
-	}
-
-	
 }

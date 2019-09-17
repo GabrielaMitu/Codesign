@@ -13,17 +13,17 @@
   <script src="assets/js/carousel.js"></script>
 </head>
 <body class = 'tudo'>
+  <body class="tudo">
   <header class = 'header1'>
-
-      <div class='nav'>
+       <div class='nav'>
         <p><a class = "h1" href="index.html">Portfolio</a></p>
         {{#each portfolio}} 
 
         <p><a class="submenu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a></p> 
         {{/each}}
-
        </div>
 
+  </header>
        <div class='dropdown'>
         <b><a class = "h1" href="index.html">Portfolio</a></p>
         {{#each portfolio}} 

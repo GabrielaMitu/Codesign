@@ -28,13 +28,13 @@
   <header class="header2">
     <div class="nav2">
         <p><a class = "h12" href="index.html">Portfolio</a></p>
-        {{#each portfolio}} 
-          <button class="dropbtn">Categorias</button>
-                <p class="dropdown-content">
-                     <a class="submenu1" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
-                        {{/each}}
+          <button class="dropbtn">Menu</button>
+                <ul class="dropdown-content">
+                    {{#each portfolio}} 
+                     <li><a  href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+              {{/each}}
 
-                </p>
+                </ul>
         </div>
 
       </header>

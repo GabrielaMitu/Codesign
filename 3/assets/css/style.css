@@ -436,8 +436,8 @@
 	width: 100%;
 
 	display: grid;
-	grid-template-columns: 1;
-	grid-template-rows:10% 23.75% 23.75% 23.75% 23.75%;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto auto;
 }
 
 .csection{
@@ -502,8 +502,8 @@
 
 .cimg1{
 	grid-row-start: 3;
-	grid-column-start:1;
-	grid-column-end: 2;
+	grid-column-start:2;
+	margin-bottom: 5rem;
 
 
 }
@@ -885,15 +885,15 @@
 	.maincat{
 		display: grid;
 		justify-content: center;
-		grid-template-rows: 0.2fr 1fr;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 5rem 20rem;
+		grid-template-columns: 20rem 20rem;
+		margin: 0 auto;
 
 	}
 
 	.csection {
 		justify-content: center; 
 		grid-row-start: 2;
-		grid-row-end: 3;
 		grid-column-start: 1; 
 		grid-column-end: 2;
 		text-align: center;
@@ -910,9 +910,8 @@
 	.csection1 { 
 		justify-content: center;  
 		grid-row-start: 2;
-		grid-row-end: 3;
-		grid-column-start: 2; 
-		grid-column-end: 3;
+		grid-column-start: auto;
+		grid-column-end: auto; 
 		text-align: center;
 		padding-left: 1.5rem;
 		padding-right:1.5rem;
@@ -992,25 +991,19 @@
 
 	.cimg1{
 		grid-row-start: 3;
-		grid-column-start:1;
-		grid-column-end: 2;
+		grid-column-start:2;
 		margin-top:1.5rem;
 		max-width:100%;
-		min-width: 50%;
 		max-height: 100%;
-		min-height: 50%;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 4rem;
 
 	}
 
 	.ctext1{
-		grid-column-start:2;
-		grid-row-start: 2;
-		margin-top:0rem;
 		margin-left: 0rem;
 		margin-top:2rem;
-
 		font-family: 'PT Sans', Merriweather, serif;
 	}
 

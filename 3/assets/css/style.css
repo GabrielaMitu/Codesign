@@ -561,7 +561,7 @@
 .cimg1{
 	grid-row-start: 3;
 	grid-column-start:1;
-	grid-column-end: 2;
+	grid-column-end: 4;
 	grid-row-end: auto;
 	margin-bottom: 5rem;
 	max-width: 80%;
@@ -656,7 +656,7 @@
 	  padding-top: 2rem;
 	  padding-bottom: 2rem;
       font-family: Limelight, "Roboto Slab";
-	  font-size: 1.5rem;
+	  font-size: 2.0rem;
 	  border-top-left-radius: 2rem;
 	  border-top-right-radius: 2rem;
 	  border-bottom-left-radius: 2rem;
@@ -993,7 +993,7 @@
 		grid-row-start: 1;
 		grid-column-start: 1;
 		grid-row-end:3;
-		grid-column-end: 3; 
+		grid-column-end: 4; 
 		text-align: center;
 		padding-left: 1.5rem;
 		padding-right:1.5rem;
@@ -1005,9 +1005,9 @@
 	.ctitle1{
 		grid-row-start: 2;
 		grid-column-start:1;
-		grid-column-end: 3;
+		grid-column-end: 4;
 		justify-self:center;
-		font-size:2.5rem;
+		font-size:3.5rem;
 		margin-left:auto;
 		margin-right:auto;
 		border-style: solid;
@@ -1021,7 +1021,7 @@
 	.cimg1{
 		grid-row-start: 2;
 		grid-column-start:1;
-		grid-column-end: 2;
+		grid-column-end: 4;
 		max-width:30rem;
 		min-width: 20rem;
 		max-height: 30rem;
@@ -1039,7 +1039,7 @@
 		margin-left:auto;
 		margin-right:auto;
 		margin-top: 2rem;
-		font-size: 2rem;
+		font-size: 2.5rem;
 		font-family: 'PT Sans', Merriweather, serif;
 	}
 

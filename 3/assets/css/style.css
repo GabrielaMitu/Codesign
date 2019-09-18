@@ -674,6 +674,22 @@
 
 }
 
+	.dropdown-content {
+	  display: none;
+	  height: 7rem;
+	  font-family: 'PT Sans', Merriweather, serif;
+	  margin-left: 4rem;
+	  margin-top:.1rem;
+	  grid-column-start: 3;
+	  grid-column-end: 4;
+	  grid-row-start: 2;
+	  background-color: #cccccc;
+	  font-size: 1.4rem;
+	  width:9rem;
+	  z-index:9999;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
 	.h1 {
 		grid-column-start: 1;
 		grid-column-end: 2;
@@ -1028,6 +1044,7 @@
 		margin-left:.7rem;
 		margin-top: 0rem;
 		font-family: Limelight, "Roboto Slab", sans-serif;
+		color: #191970;
 	}
 
 }

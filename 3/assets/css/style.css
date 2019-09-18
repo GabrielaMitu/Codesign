@@ -15,18 +15,6 @@
 	background-color: #A9B5D6;
 }
 
-.header3 {
-    border-style: solid;
-	margin: 0 auto;
-	height: 5em;
-	max-width: 1fr;
-	min-width: 1fr;
-	height: 6rem;
-	color: #191970;
-	background-color: #A9B5D6;
-}
-
-
 
 .header1 {
 	display:none;
@@ -48,13 +36,7 @@
 
 }
 
-.nav3 {
-  display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: 100%;
-  height: 5rem;
 
-}
 .dropbtn{
   grid-column-start: 3;
   grid-row-start: 1;
@@ -111,7 +93,7 @@
 
 
 .nav {
-	display: grid;
+	display: none;
 	grid-template-columns: 50% 30% auto;
 	grid-template-rows: 100%;
 	height: 7rem;
@@ -550,7 +532,7 @@
 	grid-row-start: 1;
 	grid-column-start: 1;
 	grid-row-end:3;
-	grid-column-end: 3; 
+	grid-column-end: 4; 
 	text-align: center;
 	padding-left: 1.5rem;
 	padding-right:1.5rem;
@@ -561,7 +543,7 @@
 .ctitle1{
 	grid-row-start: 2;
 	grid-column-start:1;
-	grid-column-end: 3;
+	grid-column-end: 4;
 	justify-content: center;
 	justify-self:center;
 	font-size:1.5rem;
@@ -611,6 +593,29 @@
 
 {
 
+.header2 {
+	display: none;
+    border-style: solid;
+	margin: 0 auto;
+	height: 5em;
+	max-width: 1fr;
+	min-width: 1fr;
+	height: 4rem;
+	color: #191970;
+	background-color: #A9B5D6;
+}
+
+.header3 {
+	display: none;
+    border-style: solid;
+	margin: 0 auto;
+	height: 5em;
+	max-width: 1fr;
+	min-width: 1fr;
+	height: 6rem;
+	color: #191970;
+	background-color: #A9B5D6;
+}
 	.dropdown{
 		display:none;
 	}
@@ -633,6 +638,7 @@
 
 
 	.header1 {
+		display: flex;
 		border-style: solid;
 		border-width: 0.1rem;
 		margin: 0 auto;
